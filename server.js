@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
  res.send(`
     <h1>Programación de Vanguardia</h1>
     <h2>Demo DevOps</h2>
-    <p>Versión 1.0</p>
+    <p>Versión 1.2</p>
  `);
 });
 
