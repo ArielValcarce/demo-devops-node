@@ -18,16 +18,16 @@ on:
 
       steps:
 
-        -name: Descargar repositorio
-         uses: actions/checkout@v4
+        - name: Descargar repositorio
+          uses: actions/checkout@v4
 
-        -name: Configurar Node
-         uses: actions/setup-node@v4
-         with:
+        - name: Configurar Node
+          uses: actions/setup-node@v4
+          with:
           node-version: 24
 
-        -name: Instalar dependencias
+        - name: Instalar dependencias
           run: npm CI
 
-        -name: Ejecutar tests
+        - name: Ejecutar tests
           run: npm test
